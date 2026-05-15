@@ -3,7 +3,7 @@ TransformerGP is a PyTorch-based deep learning framework specifically designed f
 
 Beyond robust predictive performance, this project integrates the **SHAP (SHapley Additive exPlanations)** algorithm to interpret model feature importance. It also provides automated scripts to construct **Gene Regulatory Networks (GRNs)**, which can be easily exported to Gephi for visualization and clustering analysis. This offers deep computational insights for Genome-Wide Association Studies (GWAS), genomic selection, and breeding strategies such as three-line hybrid systems.
 
-## ✨ Key Features
+## Key Features
 
 * **Multi-modal Fusion Architecture**: Supports single-modality (EXP or SNP only) and dual-modality joint prediction, utilizing a gating network to adaptively learn the weights of different modalities.
 * **End-to-End Data Processing**: Built-in pipeline for missing value imputation, outlier handling, feature pre-selection via `SelectKBest` (F-regression), and feature standardization.
@@ -12,7 +12,7 @@ Beyond robust predictive performance, this project integrates the **SHAP (SHaple
 
 ---
 
-## 📂 Project Structure & File Descriptions
+## Project Structure & File Descriptions
 
 The project consists of the following Python scripts, each designed with high cohesion and low coupling:
 
@@ -36,7 +36,7 @@ The project consists of the following Python scripts, each designed with high co
 
 ---
 
-## 📊 Input Data Formatting
+## Input Data Formatting
 
 To bypass GitHub's file size limits and facilitate quick out-of-the-box testing, a lightweight "toy dataset" is provided in the `data/rice4k_219/` directory. It reflects the exact tabular structure of the real Rice4k dataset.
 
@@ -63,7 +63,7 @@ Defines the K-fold splits to ensure that baseline comparisons and deep learning 
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Environment Setup
 It is recommended to use Python 3.8+ with a CUDA-enabled GPU environment.
