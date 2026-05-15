@@ -87,8 +87,3 @@ Once `main.py` has successfully generated the SHAP value files, run:
 python GRN.py --phenotype Heading_date --model_type combined --top_exp 200 --include_snp
 ```
 This will generate node and edge files in `data/results/grn/`. You can import these directly into **Gephi**, run Modularity or Leiden clustering algorithms, and visualize the complex gene-gene and snp-gene interaction networks.
-
----
-
-## 📝 Data Availability Statement
-The raw sequencing data for the full cohort used in this project has been deposited in the Genome Sequence Archive (GSA) at the National Genomics Data Center (NGDC) under the BioProject accession number: **PRJCA063902**. The repository here only contains lightweight, structural dummy data for code demonstration purposes.
