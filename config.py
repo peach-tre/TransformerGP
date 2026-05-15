@@ -2,12 +2,12 @@
 import os
 
 # 路径配置
-DATA_DIR = '/data2/users/zhangyue/TransformerGP-main/data'
+DATA_DIR = '/data'
 # CROSS_VALIDATION_FILE = os.path.join(DATA_DIR, 'rice4k_219/new_rice4k_cv_splits2.json')
-CROSS_VALIDATION_FILE = os.path.join(DATA_DIR, 'rice4k_219/rice4k_fold8.json')
-# EXP_FILE = os.path.join(DATA_DIR, 'rice4k_219/rice4k_exp.csv')
-PHENOTYPES_FILE = os.path.join(DATA_DIR, 'rice4k_219/rice4k_ph.csv')
-SNP_FILE = os.path.join(DATA_DIR, 'rice4k_219/rice18k_sw.csv')
+CROSS_VALIDATION_FILE = os.path.join(DATA_DIR, 'simple_samples_fold8.json')
+EXP_FILE = os.path.join(DATA_DIR, 'simple_samples_exp.csv')
+PHENOTYPES_FILE = os.path.join(DATA_DIR, 'simple_samples_ph.csv')
+SNP_FILE = os.path.join(DATA_DIR, 'simple_samples_sw.csv')
 RESULTS_DIR = os.path.join(DATA_DIR, 'results')
 
 # 模型参数
